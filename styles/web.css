@@ -16,9 +16,8 @@
 }
 
 .header{
- max-width:1920px;
-  max-height: 1322px;
-  border: 2px solid darkmagenta;
+ width:1200px;
+  height: 1000px;
  background-color:  rgba(255, 144, 14, 0.1);
 }
 /* navbar style */
@@ -47,9 +46,8 @@
 }
 /* brand new */
 .brand-new{
- max-width: 862px;
- max-height: 500px;
- border: 2px solid hotpink;
+ width: 860px;
+ height: 400px;
  text-align: center;
 margin: 0 auto;
 
@@ -76,4 +74,9 @@ margin: 0 auto;
   font-weight: 400;
   font-size: 1rem;
   color: Dark 03;
+}
+.banner-image{
+ width: 800px;
+ height: 400px;
+  margin-left: 200px;
 }
