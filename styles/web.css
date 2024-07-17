@@ -76,7 +76,61 @@ margin: 0 auto;
   color: Dark 03;
 }
 .banner-image{
- width: 800px;
- height: 400px;
+width: 100%;
+margin-left: 200px;
+
+}
+/* main style */
+.main-1{
+  display: flex;
+ 
+}
+.image-4{
   margin-left: 200px;
+  margin-top: 40px;
+}
+.features{
+  margin-top: 150px;
+}
+#Quick{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #727272;
+}
+#our{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #131313;
+}
+#fea{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #FF900E;
+}
+#ph{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+}
+
+
+
+/* banner resonsive */
+@media screen and (max-width: 576px) {
+  .navbar{
+    flex-direction: column;
+ 
+  }
+  
+ 
+ .brand-new{
+  padding-left: 30px;
+ }
+ 
+.banner-image{
+  width: 100%;
+
+
+}
+
 }
